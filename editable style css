@@ -1,0 +1,42 @@
+body {
+    font-family: "Arial Black", sans-serif, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #04BFAD; 
+    padding: 15px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #027373; 
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+h1 {
+    color: #0E0F13; 
+}
